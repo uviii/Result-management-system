@@ -1,0 +1,224 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+  
+  
+
+}
+a{text-decoration: none;}
+
+
+
+/*3rd page project*/
+ .clm {
+        margin-top: 30px;
+  float: left;
+  width: 22%;
+  margin-left: 0px;
+  padding: 0 8px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.horizantal {margin: 0 -5px;
+margin-left: 5%;}
+
+/* Clear floats after the clms */
+.horizantal:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+/* Responsive clms */
+@media screen and (max-width: 600px) {
+  .clm {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.flex {
+  box-shadow:0 2px 12px 0 rgba(0, 0, 0, 0.9) ;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+.flex h3{ margin-top: 20px; }
+.flex p{margin-top: 10px;}
+.button{margin-bottom: 20px; margin-top: 40px;}
+
+.flex img{ width: 70px;height: auto;}
+
+
+
+/*Navbar*/
+
+/*main*/
+.nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 10px  85px 1px;
+
+}
+
+    padding: 0 1em;
+}
+.nav.logo{
+    text-decoration: none;
+    color:blak;
+    font-size:40px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.nav li{
+    list-style: none;
+
+}
+.nav a{
+    text-decoration: none;
+    color:green;
+    padding-right:2em;
+    font-size: 1em;
+
+}
+.nav a:hover{
+    color: rgb(216, 185, 10);
+    letter-spacing: 2px;
+}
+
+
+
+
+
+/*slider*/
+.slider{width: 800px;
+height: 500px;
+border-radius: 10px;
+}
+
+
+/*Fon fill up*/
+
+   input[type=text], input[type=email], input[type=password],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: blue;
+}
+
+
+/*login page */
+/*row colum diver*/
+.clmcontact {
+  float: left;
+  width: 46%;
+  margin-left: 0px;
+  margin-top: 60px;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.rowcontact {margin: 0 -5px;}
+
+/* Clear floats after the clmcontacts */
+.rowcontact:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive clmcontacts */
+@media screen and (max-width: 600px) {
+  .clmcontact {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.crdcontact {
+  box-shadw: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  background-colo: #f1f1f1;
+}
+.crdcontact h3{margin-bottom: 10px; font-size: 40px;}
+/*.crdcontact img{ width: 200px; height: auto; margin-bottom: 15px; border-radius: 10px; }*/
+button {
+  border: none;
+  outline: 0;
+  display: flex;
+  padding: 8px;
+  color: white;
+  background-color: #;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 20px;
+}  
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+
+/*table design*/
+ #table {
+      font-family: Arial, Helvetica, sans-serif;
+   /*   border-collapse: collapse;*/
+      width: 90%;
+      margin-left: 5%;
+      margin-right: 5%;
+      }
+      #table td, #table th {
+      border: 1px solid #ddd;
+      padding: 8px;
+      }
+      #table tr:nth-child(even){background-color:#d6f5f5;}
+      #table tr:hover {background-color: #e6ffe6;}
+      #table th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color:#e600e6;
+      color: white;
+      }
